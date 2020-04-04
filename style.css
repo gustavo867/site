@@ -1,0 +1,276 @@
+
+body {
+   background-color: #fab20a;
+
+   font-family: Candara, Helvetica, sans-serif;    
+   margin: 0;
+}
+
+
+#header {
+   width: 100%;
+   height: 137px;
+
+   padding-top: 10px;
+}
+
+
+#logo {
+   
+   width: 425px;  
+   height: 100px;
+   
+   position: relative;
+   left: 50%;
+   margin-left: -225px;
+}
+
+
+#logoImg {
+   float: left;
+}
+
+#tituloLogo {
+   float: left;
+
+   color: #e50021;
+
+   line-height: 100px;
+   margin: 0;
+   font-size: 40px;
+}
+
+
+#menu {
+   width: 100%;
+
+   background-color: #e50021;
+}
+
+
+.listaMenu {
+   width: 300px;
+
+   position: relative;
+
+   left: 50%;
+
+   margin-left: -212px;
+
+   
+   margin-top: 7px;
+}
+
+
+.listaMenu li {
+
+   display: inline-block;
+}
+
+
+.listaMenu li a {
+
+   text-decoration: none;
+
+   
+   height: 50px;
+
+   
+   line-height: 30px;
+
+   
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+
+.listaMenu li a:link,
+.listaMenu li a:visited {
+
+   
+   color: white;
+}
+
+
+.listaMenu li a:hover {
+   color: #e50021;
+   background-color: white;
+}
+
+
+#menuAtual:link,
+#menuAtual:visited {
+   text-transform: uppercase;
+
+   font-weight: bold;
+}
+
+
+#content {
+   width: 700px;
+   
+   background-color: white;
+
+   position: relative;
+   left: 50%;
+   margin-left: -350px;
+}
+
+
+#promotionBanner {
+   height: 200px;
+
+   background-image: url('images/promocao.jpg');
+}
+
+
+#promocaoH1 {
+   color: white;
+
+   font-size: 64px;
+   margin: 0;
+   
+   position: absolute;
+
+   text-shadow: 2px 2px 4px #e50021
+}
+
+
+#promocaoValor {
+   color: white;
+
+   font-size: 44px;
+
+   margin: 0;
+
+   position: relative;
+
+   text-shadow: 2px 2px 4px #e50021;
+
+   
+   left: 180px;
+   top: 130px;
+
+   width: 500px;
+}
+
+
+#tituloConteudo {
+
+   background-color: #f77b07;
+   
+   color: #e50021;
+       
+   text-align: center;
+   
+   margin-bottom: 0.5px;
+   margin-top: 0.5px;
+}
+
+
+#areaProdutos table {
+   background-color: #e5e5e5;
+    
+   border-spacing: 25px;
+   border-collapse: separate;
+
+   text-align: center;
+}
+
+
+#areaProdutos td { 
+   width: 250px;
+
+   font-size: 20px;
+
+   color: #e50021;
+}
+
+
+#areaProdutos td img {
+
+   margin-top: 5px;
+
+   border-radius: 50%;
+   border: 2px solid #e50021;
+   width: 150px;
+   height: 150px;
+}
+
+
+
+.tituloProduto {
+   font-weight: bold;
+   margin: 0;
+}
+
+
+.precoProduto {
+   margin: 0;
+}
+
+
+#entrega {
+
+   bottom: 30px;
+   right: 10px;
+   position: fixed;
+   height: 100px;
+   width: 300px;
+}
+
+/** Seleciona os elementos de imagem dentro elementos com id "entrega" **/
+#entrega img {
+
+   border-radius: 50%;
+   
+   border: 3px solid #e50021
+}
+
+
+#tel {
+
+   position: absolute;
+
+   left: 120px;
+   height: 75px;
+   
+   background-color: #e50021;  
+   color: white;
+
+   margin-top: 13px;
+
+   padding: 10px;
+   padding-bottom: 0;
+   border-radius: 15px;
+}
+
+
+#tel h4 {
+
+   
+   margin: 0;
+
+  
+   font-size: 24px;
+}
+
+
+#tel h5 {
+
+   
+   margin: 0;
+
+   
+   margin-top: 10px;
+}
+
+
+#tel a {
+
+   
+   color: white;
+
+   
+   text-decoration: none;
+}
